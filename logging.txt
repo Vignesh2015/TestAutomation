@@ -1,0 +1,323 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383495,
+        "lng": 33.427366
+    },
+    "accuracy": 60,
+    "name": "AAHouse",
+    "phone_number": "(+91)989 789 6688",
+    "address": "World Cross center",
+    "types": [
+        "shoe park1",
+        "shop1"
+    ],
+    "website": "http://google.com",
+    "language": "English"
+}
+HTTP/1.1 200 OK
+Date: Mon, 02 Oct 2023 07:30:30 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "9f0c964b22bd989de9f9a845f316ab74",
+    "scope": "APP",
+    "reference": "8e157bbeae55a8dc6d84434a1d10e47a8e157bbeae55a8dc6d84434a1d10e47a",
+    "id": "8e157bbeae55a8dc6d84434a1d10e47a"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=9f0c964b22bd989de9f9a845f316ab74
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=9f0c964b22bd989de9f9a845f316ab74
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 02 Oct 2023 07:30:32 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 241
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383495",
+        "longitude": "33.427366"
+    },
+    "accuracy": "60",
+    "name": "AAHouse",
+    "phone_number": "(+91)989 789 6688",
+    "address": "World Cross center",
+    "types": "shoe park1,shop1",
+    "website": "http://google.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383495,
+        "lng": 33.427366
+    },
+    "accuracy": 60,
+    "name": "DD House",
+    "phone_number": "+1 989 656 8787",
+    "address": "Washington Bay area",
+    "types": [
+        "shoe park1",
+        "shop1"
+    ],
+    "website": "http://google.com",
+    "language": "English"
+}
+HTTP/1.1 200 OK
+Date: Mon, 02 Oct 2023 07:30:32 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "05de66faed3ebc47ee4b987c5a7a1fd6",
+    "scope": "APP",
+    "reference": "bf0dcaf9ab9ff0dc6e266667ad138a43bf0dcaf9ab9ff0dc6e266667ad138a43",
+    "id": "bf0dcaf9ab9ff0dc6e266667ad138a43"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=05de66faed3ebc47ee4b987c5a7a1fd6
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=05de66faed3ebc47ee4b987c5a7a1fd6
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 02 Oct 2023 07:30:33 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 241
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383495",
+        "longitude": "33.427366"
+    },
+    "accuracy": "60",
+    "name": "DD House",
+    "phone_number": "+1 989 656 8787",
+    "address": "Washington Bay area",
+    "types": "shoe park1,shop1",
+    "website": "http://google.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383495,
+        "lng": 33.427366
+    },
+    "accuracy": 60,
+    "name": "mckinksey",
+    "phone_number": "+1 989 656 8787",
+    "address": "Redmond Bay area",
+    "types": [
+        "shoe park1",
+        "shop1"
+    ],
+    "website": "http://google.com",
+    "language": "English"
+}
+HTTP/1.1 200 OK
+Date: Mon, 02 Oct 2023 07:30:33 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "4b73f28be46c732c99003623de29c64d",
+    "scope": "APP",
+    "reference": "bf3477d522aacb6fd58e4a702561cf54bf3477d522aacb6fd58e4a702561cf54",
+    "id": "bf3477d522aacb6fd58e4a702561cf54"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=4b73f28be46c732c99003623de29c64d
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=4b73f28be46c732c99003623de29c64d
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 02 Oct 2023 07:30:33 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 239
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383495",
+        "longitude": "33.427366"
+    },
+    "accuracy": "60",
+    "name": "mckinksey",
+    "phone_number": "+1 989 656 8787",
+    "address": "Redmond Bay area",
+    "types": "shoe park1,shop1",
+    "website": "http://google.com",
+    "language": "English"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=4b73f28be46c732c99003623de29c64d
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=4b73f28be46c732c99003623de29c64d
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 02 Oct 2023 07:30:34 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 239
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383495",
+        "longitude": "33.427366"
+    },
+    "accuracy": "60",
+    "name": "mckinksey",
+    "phone_number": "+1 989 656 8787",
+    "address": "Redmond Bay area",
+    "types": "shoe park1,shop1",
+    "website": "http://google.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "4b73f28be46c732c99003623de29c64d"
+}
+HTTP/1.1 200 OK
+Date: Mon, 02 Oct 2023 07:30:34 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
